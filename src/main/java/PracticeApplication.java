@@ -1,3 +1,4 @@
+import linkedList.doubly.DoublyLinkedList;
 import searching.BinarySearch;
 import searching.LinearSearch;
 import searching.Search;
@@ -6,7 +7,17 @@ import sorting.*;
 public class PracticeApplication {
 
     public static void main(String[] args) {
-        System.out.println("Data - structure");
+        try {
+            DoublyLinkedList list = new DoublyLinkedList();
+            list.add(10);
+            list.add(20);
+            list.add(23);
+            list.addAtIndex(0, 500);
+            list.removeFromStart();
+            list.removeFromStart();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("\nException : " + e.getMessage());
+        }
     }
 
     static void bubbleSorting() {

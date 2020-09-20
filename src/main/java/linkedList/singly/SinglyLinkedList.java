@@ -1,4 +1,6 @@
-package linkedList;
+package linkedList.singly;
+
+import linkedList.List;
 
 public class SinglyLinkedList implements List {
 
