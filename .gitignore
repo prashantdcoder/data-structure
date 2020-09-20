@@ -1,6 +1,6 @@
 .idea
 .gradle/*
-wrapper
+build
 out
 target
 *.iml
@@ -10,4 +10,5 @@ target
 dbbackups/remote_cmd
 .DS_Store
 .slcache
+*.class
 
