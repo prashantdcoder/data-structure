@@ -1,0 +1,13 @@
+.idea
+.gradle/*
+wrapper
+out
+target
+*.iml
+*.ipr
+*.iws
+*.ids
+dbbackups/remote_cmd
+.DS_Store
+.slcache
+
